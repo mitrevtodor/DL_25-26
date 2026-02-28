@@ -804,7 +804,7 @@ Let's try to implement a variant of `ReLU` that instead of assigning $0$ to nega
 
 $$\text{LeakyReLU}(x) = \max(0, x) + \text{negative\_slope} * \min(0, x)$$
 
-Define a class `LeakyReLU` in the module `nn` that applies the leaky-relu function element-wise. It should have two parameters:
+Define a class `LeakyReLU` in the module `nn` that applies the leaky-relu function element-wise. It should have one parameter:
 
 - `negative_slop`: Controls the angle of the negative slope. Default to `1e-2` (`0.01`).
 
@@ -848,4 +848,4 @@ When `model(some_inputs)` is run:
 2. The class is defined in a module `dl_lib.nn`.
 3. The class accepts and returns PyTorch `tensor` objects.
 4. All four methods are present.
-4. The module inherits `dl_lib.nn.Module`.
+5. The module inherits `dl_lib.nn.Module`.
