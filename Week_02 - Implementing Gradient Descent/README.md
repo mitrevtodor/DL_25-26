@@ -587,8 +587,8 @@ def main() -> None:
 should produce the following output:
 
 ```console
-Value(data=0.5956867123527914)
-[Value(data=-0.6275613950670328), Value(data=0.2799374805333087)]
+Value(data=-0.6490834594731474)
+[Value(data=0.715728690853701), Value(data=0.6594519942431283)]
 ```
 
 and the following `svg` file representing the first model:
@@ -643,10 +643,10 @@ def main() -> None:
 should produce the following:
 
 ```console
-y_preds=[Value(data=0.5956867123527914), Value(data=0.1253938158164716), Value(data=0.717274959616074), Value(data=0.15150213469702328)]
-Loss = Value(data=5.098962389594149)
-Gradient of the first weight in the first neuron in the first layer: 0.5541811844205011.
-Parameters: [Value(data=-0.250919762305275), Value(data=0.9014286128198323), Value(data=0.4639878836228102), Value(data=0.1973169683940732), Value(data=-0.687962719115127), Value(data=-0.6880109593275947), Value(data=-0.8838327756636011), Value(data=0.7323522915498704), Value(data=0.2022300234864176), Value(data=0.416145155592091), Value(data=-0.9588310114083951), Value(data=0.9398197043239886), Value(data=0.6648852816008435), Value(data=-0.5753217786434477), Value(data=-0.6363500655857988), Value(data=-0.6331909802931324), Value(data=-0.39151551408092455), Value(data=0.04951286326447568), Value(data=-0.13610996271576847), Value(data=-0.4175417196039162), Value(data=0.22370578944475894), Value(data=-0.7210122786959163), Value(data=-0.4157107029295637), Value(data=-0.2672763134126166), Value(data=-0.08786003156592814), Value(data=0.5703519227860272), Value(data=-0.6006524356832805), Value(data=0.02846887682722321), Value(data=0.18482913772408494), Value(data=-0.9070991745600046), Value(data=0.21508970380287673), Value(data=-0.6589517526254169), Value(data=-0.869896814029441), Value(data=0.8977710745066665), Value(data=0.9312640661491187), Value(data=0.6167946962329223)]
+y_preds=[Value(data=-0.8846794611396062), Value(data=-0.7655833251200287), Value(data=-0.9256532572066426), Value(data=-0.6535216456575766)]
+Loss = Value(data=6.346629119525382)
+Gradient of the first weight in the first neuron in the first layer: 0.18568556339367487.
+Parameters: [Value(data=-0.08349520625906504), Value(data=-0.757783290179419), Value(data=0.7456953285658869), Value(data=-0.07822853995669132), Value(data=0.4228662760491595), Value(data=-0.05391857755080154), Value(data=0.820925467757954), Value(data=0.27423668525003597), Value(data=-0.45539799607252074), Value(data=-0.4023983717258177), Value(data=-0.9124163469404012), Value(data=0.57519058348993), Value(data=-0.29908061257389806), Value(data=0.4694451549099634), Value(data=0.7529125565303192), Value(data=-0.3283177176813512), Value(data=-0.9548213736184752), Value(data=-0.263165100116167), Value(data=0.806242720079227), Value(data=0.42442150853518523), Value(data=-0.9067891341587697), Value(data=-0.35060677921742167), Value(data=-0.33241568633034024), Value(data=-0.34189605752468966), Value(data=0.28969332240347456), Value(data=0.9057043946477801), Value(data=0.20529429085351714), Value(data=-0.51790827248185), Value(data=0.17767013161301426), Value(data=-0.2752278534568091), Value(data=0.17091117977672687), Value(data=-0.360523556799748), Value(data=-0.07809609132969375), Value(data=0.17963725596278945), Value(data=0.324658772643595), Value(data=-0.13407270208072242), Value(data=0.7286205745164751), Value(data=-0.5246256316422828), Value(data=0.15718187764009262), Value(data=-0.622756518410482), Value(data=-0.537024340390462)]
 ```
 
 #### Task 5
@@ -660,8 +660,8 @@ Make a gradient step with with rate `0.1` and print the new value for the loss.
 The output should be similar to:
 
 ```console
-Before gradient step: Value(data=5.098962389594149)
-After gradient step: Value(data=3.220876995002544)
+Before gradient step: Value(data=6.151016417765895)
+After gradient step: Value(data=3.101746496829328)
 ```
 
 #### Task 6
@@ -679,27 +679,27 @@ Answer the following two questions in comments:
 
 ```console
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=5.098962389594149
-Gradient of the first weight in the first neuron in the first layer: 0.5541811844205009.
-Loss=3.220876995002545
-Gradient of the first weight in the first neuron in the first layer: -0.12975116602681702.
-Loss=2.046560330027778
-Gradient of the first weight in the first neuron in the first layer: 0.08907461390429887.
-Loss=1.5663443955136522
-Gradient of the first weight in the first neuron in the first layer: 0.5621961813356361.
-Loss=0.006935751508743683
-Gradient of the first weight in the first neuron in the first layer: 0.5643736801809522.
-Loss=0.009248252856100774
-Gradient of the first weight in the first neuron in the first layer: 0.564118183340036.
-Loss=0.009008735555956203
-Gradient of the first weight in the first neuron in the first layer: 0.5639431621585247.
-Loss=0.005306857933176206
-Gradient of the first weight in the first neuron in the first layer: 0.563849205534664.
-Loss=0.0047281599745297625
-Gradient of the first weight in the first neuron in the first layer: 0.5637901206928505.
-Loss=0.005957533465837073
+Loss=0.8800466349637817
+Gradient of the first weight in the first neuron in the first layer: -2.2111900022519513.
+Loss=0.12163317937937812
+Gradient of the first weight in the first neuron in the first layer: -2.238355613536774.
+Loss=0.023551924796726468
+Gradient of the first weight in the first neuron in the first layer: -2.2380494593740137.
+Loss=0.0029305439393419045
+Gradient of the first weight in the first neuron in the first layer: -2.238015391045233.
+Loss=0.0003524054621705247
+Gradient of the first weight in the first neuron in the first layer: -2.2380129539687306.
+Loss=4.921231786613826e-05
+Gradient of the first weight in the first neuron in the first layer: -2.238012811546087.
+Loss=8.182235721900147e-06
+Gradient of the first weight in the first neuron in the first layer: -2.238012805507104.
+Loss=1.5659281904199408e-06
+Gradient of the first weight in the first neuron in the first layer: -2.2380128055344684.
+Loss=3.3146113125658624e-07
+Gradient of the first weight in the first neuron in the first layer: -2.2380128055941713.
+Loss=7.546109301885475e-08
 Predictions:
-[0.9319016131960791, -0.9999871817821795, -0.9999871817120374, 0.935614673489988]
+[0.9999043780596674, -0.9999977438723988, -0.9999971681031702, 0.9999048717855669]
 ```
 
 #### Task 7
@@ -714,27 +714,27 @@ Now, the output should be similar to the following:
 
 ```console
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=5.098962389594149
+Loss=7.8379562353265575
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=3.220876995002544
+Loss=7.787174174653229
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=3.2036588569679334
+Loss=7.691364553815586
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=2.4440702171359288
+Loss=7.448844880945114
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=2.3716951642208755
+Loss=6.36591085371192
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=1.466303280396266
+Loss=5.125592101808614
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=2.2569026930854634
+Loss=4.864137579611206
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=0.2143092569843127
+Loss=1.371604846312807
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=0.09088626281233735
+Loss=0.7152830758881096
 Gradient of the first weight in the first neuron in the first layer: 0.0.
-Loss=0.07330962604369345
+Loss=0.38116458989288804
 Predictions:
-[0.888025203576078, -0.9681935440620111, -0.8224099821034776, 0.872528278212644]
+[0.8177107225177095, -0.9194337489861797, -0.6755458517388393, 0.7053918306965871]
 ```
 
 ### Implementing activation functions
