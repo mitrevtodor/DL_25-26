@@ -2009,16 +2009,17 @@ Look at the formula for the sigmoid above.
 
 <summary>What is the derivative of the sigmoid with respect to its input?</summary>
 
-$$
-\begin{aligned}
-\sigma(x) &= \frac{1}{1+e^{-x}} = (1+e^{-x})^{-1} \\
-\frac{d}{dx}\sigma(x) &= - (1+e^{-x})^{-2}\,\frac{d}{dx}(1+e^{-x}) \\
-&= - (1+e^{-x})^{-2}\,(-e^{-x}) \\
-&= \frac{e^{-x}}{(1+e^{-x})^{2}} \\
-&= \frac{1}{1+e^{-x}} \cdot \frac{e^{-x}}{1+e^{-x}} \\
-&= \sigma(x)\bigl(1-\sigma(x)\bigr)
-\end{aligned}
-$$
+$$\sigma(x) = \frac{1}{1+e^{-x}} = (1+e^{-x})^{-1}$$
+
+$$\frac{d}{dx}\sigma(x) = - (1+e^{-x})^{-2}\,\frac{d}{dx}(1+e^{-x})$$
+
+$$= - (1+e^{-x})^{-2}\,(-e^{-x})$$
+
+$$= \frac{e^{-x}}{(1+e^{-x})^{2}}$$
+
+$$= \frac{1}{1+e^{-x}} \cdot \frac{e^{-x}}{1+e^{-x}}$$
+
+$$= \sigma(x)\bigl(1-\sigma(x)\bigr)$$
 
 So, we get:
 
@@ -2032,15 +2033,15 @@ Great! We see that the derivative of the sigmoid is expressed using the sigmoid!
 
 <summary>We saw the formula for the hyperbolic tangent above - what is its derivative with respect to its input?</summary>
 
-$$
-\begin{aligned}
-\tanh(x) &= \frac{e^{x}-e^{-x}}{e^{x}+e^{-x}} \\
-\frac{d}{dx}\tanh(x) &= \frac{(e^{x}+e^{-x})^2 - (e^{x}-e^{-x})^2}{(e^{x}+e^{-x})^2} \\
-&= \frac{4}{(e^{x}+e^{-x})^2} \\
-&= \operatorname{sech}^2(x) \\
-&= 1 - \tanh^2(x)
-\end{aligned}
-$$
+$$\tanh(x) = \frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$$
+
+$$\frac{d}{dx}\tanh(x) = \frac{(e^{x}+e^{-x})^2 - (e^{x}-e^{-x})^2}{(e^{x}+e^{-x})^2}$$
+
+$$= \frac{4}{(e^{x}+e^{-x})^2}$$
+
+$$= \operatorname{sech}^2(x)$$
+
+$$= 1 - \tanh^2(x)$$
 
 So, we get:
 
