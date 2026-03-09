@@ -2039,7 +2039,7 @@ $$\frac{d}{dx}\tanh(x) = \frac{(e^{x}+e^{-x})^2 - (e^{x}-e^{-x})^2}{(e^{x}+e^{-x
 
 $$= \frac{4}{(e^{x}+e^{-x})^2}$$
 
-$$= \operatorname{sech}^2(x)$$
+$$= \text{sech}^2(x)$$
 
 $$= 1 - \tanh^2(x)$$
 
