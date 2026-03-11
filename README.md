@@ -22,7 +22,7 @@ Please follow the instructions in one of the following two folders:
 2. :white_check_mark: 25.02, Wednesday, 7:15 pm, 326
 3. :white_check_mark: **02.03, Monday, 7:15 pm, 107**
 4. :white_check_mark: 04.03, Wednesday, 7:15 pm, 326
-5. 11.03, Wednesday, 7:15 pm, 326
+5. :white_check_mark: 11.03, Wednesday, 7:15 pm, 326
 6. 18.03, Wednesday, 7:15 pm, 326
 7. 25.03, Wednesday, 7:15 pm, 326
 8. 01.04, Wednesday, 7:15 pm, 326
